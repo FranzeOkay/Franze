@@ -1,0 +1,79 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Monaco', sans-serif;
+}
+
+
+
+body{
+   background-color: cyan;
+}
+
+h1{
+    color: hotpink;
+}
+#pfpimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+#toptexttext{
+    text-align: center;
+    padding: 1%;
+
+}
+#thismywebsite{
+    text-align: center;
+    padding: 1%;
+
+}
+
+.imagelinks {
+    float: left;
+    width: 33.33%;
+    padding: 1.5%;
+}
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    color: yellow;
+
+  }
+
+@media screen and (max-width: 1024px) {
+    #pfpimg{
+        width: 100%;
+    }
+    
+    #toptexttext{
+        text-align: center;
+        padding: 1%;
+    
+    }
+    #thismywebsite{
+        text-align: center;
+        padding: 1%;
+    
+    }
+    #aboutmeimg {
+        width: 100%;
+    }
+    
+    #twitterimg {
+        width: 100%;
+    }
+    #tiktokimg {
+        width: 100%;
+    }
+    #discordimg {
+        width: 100%;
+    }
+} 

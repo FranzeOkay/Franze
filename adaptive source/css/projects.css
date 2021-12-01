@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Monaco', sans-serif;
+}
+  
+body{
+    background-color: cyan;
+}
+  
+h1{
+    color: hotpink;
+}
+
+#pfpimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.imagelinks {
+    float: left;
+    width: 25%;
+    padding: 1.5%;
+}
+
+#text1{
+    text-align: center;
+    padding: 1%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #pfpimg{
+        width: 100%;
+    }
+
+}
